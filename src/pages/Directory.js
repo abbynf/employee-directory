@@ -17,6 +17,7 @@ class Directory extends React.Component {
 
     handleSort = event => {
         event.preventDefault();
+        console.log(this.state.qualifier)
 
         var sortbyVar = this.state.qualifier
 
@@ -36,6 +37,8 @@ class Directory extends React.Component {
         this.setState({
             qualifier: value
         })
+
+        console.log(this.state)
     }
 
     componentDidMount() {
