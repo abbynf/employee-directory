@@ -1,0 +1,102 @@
+[
+    {
+        "id": "01",
+        "name": {
+            "first": "Kim",
+            "last": "Bishop"
+        },
+        "location": "London",
+        "department": "Sales",
+        "employeeNumber": "UBR02447"
+    },
+    {
+        "id": "02",
+        "name": {
+            "first": "Jayme",
+            "last": "Goff"
+        },
+        "location": "London",
+        "department": "Sales",
+        "employeeNumber": "DLQ05330"
+    },
+    {
+        "id": "03",
+        "name": {
+            "first": "Thomas",
+            "last": "Applegate"
+        },
+        "location": "Berlin",
+        "department": "Production",
+        "employeeNumber": "WPX08224"
+    },
+    {
+        "id": "04",
+        "name": {
+            "first": "Bridgette",
+            "last": "Richardson"
+        },
+        "location": "Berlin",
+        "department": "Production",
+        "employeeNumber": "YFM03151"
+    },
+    {
+        "id": "05",
+        "name": {
+            "first": "Richard",
+            "last": "Smelley"
+        },
+        "location": "Paris",
+        "department": "Marketing",
+        "employeeNumber": "BRH07514"
+    },
+    {
+        "id": "06",
+        "name": {
+            "first": "Lindsay",
+            "last": "White"
+        },
+        "location": "London",
+        "department": "Production",
+        "employeeNumber": "KEA04652"
+    },
+    {
+        "id": "07",
+        "name": {
+            "first": "Tracey",
+            "last": "Dodds"
+        },
+        "location": "Paris",
+        "department": "Sales",
+        "employeeNumber": "YKX01500"
+    },
+    {
+        "id": "08",
+        "name": {
+            "first": "Mark",
+            "last": "Davenport"
+        },
+        "location": "Paris",
+        "department": "Production",
+        "employeeNumber": "OMX01249"
+    },
+    {
+        "id": "09",
+        "name": {
+            "first": "Jack",
+            "last": "Berg"
+        },
+        "location": "London",
+        "department": "Marketing",
+        "employeeNumber": "PCZ03416"
+    },
+    {
+        "id": "10",
+        "name": {
+            "first": "Lynn",
+            "last": "Obregon"
+        },
+        "location": "Berlin",
+        "department": "Marketing",
+        "employeeNumber": "VFL05653"
+    }
+]
