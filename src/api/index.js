@@ -1,10 +1,18 @@
-import React from 'react'
-
 var users = require("./users.json");
 
-function API() {
+function API(qualifier) {
+
+    console.log(qualifier)
+
+    if (qualifier === "all"){
+        var result = users;
+    }
     
-    return (users)
+    if (qualifier === "first"){
+        console.log("hello first")
+        result = users;
+    }
+    return (result)
 }
 
 export default API

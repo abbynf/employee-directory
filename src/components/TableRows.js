@@ -1,31 +1,20 @@
 import React from 'react';
-import API from './../api/index';
 
-class TableRows extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            error: null,
-            isLoaded: false,
-            users: []
-        }
-    }
+function TableRows(props) {
+    console.log(props)
 
-    componentDidMount() {
-        var usersInit = API()
-        this.setState({
-            isLoaded: true,
-            users: usersInit
-        })
-    }
-
-    render() {
-        return (
-            <table>
+    return (
+        <table>
+            <thead>
                 <tr>
                     <th>Name</th>
+                    <th>Location</th>
+                    <th>Department</th>
+                    <th>Employee Number</th>
                 </tr>
-                {this.state.users.map(user => (
+            </thead>
+            <tbody>
+                {props.users.map(user => (
 
                     <tr key={user.id}>
                         <td>{user.name.first} {user.name.last}</td>
@@ -34,9 +23,10 @@ class TableRows extends React.Component {
                         <td>{user.employeeNumber}</td>
                     </tr>
                 ))}
-            </table>
-        )
-    }
+            </tbody>
+        </table>
+    )
+
 
 }
 
