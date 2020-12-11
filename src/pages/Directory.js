@@ -10,6 +10,7 @@ class Directory extends React.Component {
         super(props);
         this.state = {
             qualifier: "all",
+            method: "all",
             users: [],
         }
     }
@@ -28,7 +29,8 @@ class Directory extends React.Component {
         const { name, value } = event.target;
 
         this.setState({
-            qualifier: value
+            qualifier: value,
+            method: name
         })
     }
 
