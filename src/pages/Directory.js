@@ -61,13 +61,25 @@ class Directory extends React.Component {
                         <label htmlFor="sortby">Sort by:</label>
                         <select name="sortby"
                             onChange={this.handleInputChange}>
-                            <option>{this.state.sortby}</option>
-                            <option value="all">All</option>
+                            <option></option>
                             <option value="first">First Name</option>
                             <option value="last">Last Name</option>
                             <option value="employeeNumber">Employee Number</option>
                         </select>
                         <button onClick={this.handleSort}>Sort!</button>
+                        <label htmlFor="filterby">Filter by:</label>
+                        <select name="filterby"
+                            onChange={this.handleInputChange}>
+                            <option></option>
+                            <option value="london">Location: London</option>
+                            <option value="berlin">Location: Berlin</option>
+                            <option value="paris">Location: Paris</option>
+                            <option value="sales">Department: Sales</option>
+                            <option value="production">Department: Production</option>
+                            <option value="marketing">Department: Marketing</option>
+                        </select>
+                        <button onClick={this.handleSort}>Filter!</button>
+                        {/* button for reset */}
                     </form>
                     <TableRows users={this.state.users}/>
                 </Container>
