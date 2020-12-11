@@ -38,6 +38,10 @@ class Directory extends React.Component {
             qualifier: value
         })
 
+        // if (value === "all"){
+        //     this.handleSort()
+        // }
+
         console.log(this.state)
     }
 
@@ -79,7 +83,7 @@ class Directory extends React.Component {
                             <option value="marketing">Department: Marketing</option>
                         </select>
                         <button onClick={this.handleSort}>Filter!</button>
-                        {/* button for reset */}
+                        <button onClick={() => {this.setState({qualifier: "all"}); this.handleSort()}}>RESET</button>
                     </form>
                     <TableRows users={this.state.users}/>
                 </Container>
