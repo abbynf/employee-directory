@@ -4,13 +4,13 @@ function TableRows(props) {
     console.log(props)
 
     return (
-        <table>
+        <table className="table">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Location</th>
-                    <th>Department</th>
-                    <th>Employee Number</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Employee Number</th>
                 </tr>
             </thead>
             <tbody>
